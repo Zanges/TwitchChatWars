@@ -1,10 +1,11 @@
 package twitch.chatWars;
 
-public class Bot {
+import org.jibble.pircbot.PircBot;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Bot extends PircBot{
 
+	public Bot(){
+		this.setName("TwitchChatWars");
 	}
-
+	
 }
