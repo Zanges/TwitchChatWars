@@ -12,6 +12,8 @@ public class TwitchWarsMain {
 		
 		String passwort = br.readLine();
 		
+		br.close();
+		
 		bot.setVerbose(true);
 		bot.connect("irc.twitch.tv", 6667, passwort);
 		bot.joinChannel("#TwichChatWars");
